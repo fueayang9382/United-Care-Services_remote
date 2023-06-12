@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15916A382A37D3D500C4E94C /* United_Care_ServicesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15916A372A37D3D500C4E94C /* United_Care_ServicesApp.swift */; };
+		15916A3A2A37D3D500C4E94C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15916A392A37D3D500C4E94C /* ContentView.swift */; };
+		15916A3C2A37D3D600C4E94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15916A3B2A37D3D600C4E94C /* Assets.xcassets */; };
+		15916A3F2A37D3D600C4E94C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15916A3E2A37D3D600C4E94C /* Preview Assets.xcassets */; };
+		15916A492A37D3D600C4E94C /* United_Care_ServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15916A482A37D3D600C4E94C /* United_Care_ServicesTests.swift */; };
+		15916A532A37D3D600C4E94C /* United_Care_ServicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15916A522A37D3D600C4E94C /* United_Care_ServicesUITests.swift */; };
+		15916A552A37D3D600C4E94C /* United_Care_ServicesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15916A542A37D3D600C4E94C /* United_Care_ServicesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15916A452A37D3D600C4E94C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15916A2C2A37D3D500C4E94C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15916A332A37D3D500C4E94C;
+			remoteInfo = "United Care Services";
+		};
+		15916A4F2A37D3D600C4E94C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15916A2C2A37D3D500C4E94C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15916A332A37D3D500C4E94C;
+			remoteInfo = "United Care Services";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15916A342A37D3D500C4E94C /* United Care Services.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "United Care Services.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15916A372A37D3D500C4E94C /* United_Care_ServicesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = United_Care_ServicesApp.swift; sourceTree = "<group>"; };
+		15916A392A37D3D500C4E94C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15916A3B2A37D3D600C4E94C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15916A3E2A37D3D600C4E94C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		15916A442A37D3D600C4E94C /* United Care ServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "United Care ServicesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15916A482A37D3D600C4E94C /* United_Care_ServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = United_Care_ServicesTests.swift; sourceTree = "<group>"; };
+		15916A4E2A37D3D600C4E94C /* United Care ServicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "United Care ServicesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15916A522A37D3D600C4E94C /* United_Care_ServicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = United_Care_ServicesUITests.swift; sourceTree = "<group>"; };
+		15916A542A37D3D600C4E94C /* United_Care_ServicesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = United_Care_ServicesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15916A312A37D3D500C4E94C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15916A412A37D3D600C4E94C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15916A4B2A37D3D600C4E94C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15916A2B2A37D3D400C4E94C = {
+			isa = PBXGroup;
+			children = (
+				15916A362A37D3D500C4E94C /* United Care Services */,
+				15916A472A37D3D600C4E94C /* United Care ServicesTests */,
+				15916A512A37D3D600C4E94C /* United Care ServicesUITests */,
+				15916A352A37D3D500C4E94C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15916A352A37D3D500C4E94C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15916A342A37D3D500C4E94C /* United Care Services.app */,
+				15916A442A37D3D600C4E94C /* United Care ServicesTests.xctest */,
+				15916A4E2A37D3D600C4E94C /* United Care ServicesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15916A362A37D3D500C4E94C /* United Care Services */ = {
+			isa = PBXGroup;
+			children = (
+				15916A372A37D3D500C4E94C /* United_Care_ServicesApp.swift */,
+				15916A392A37D3D500C4E94C /* ContentView.swift */,
+				15916A3B2A37D3D600C4E94C /* Assets.xcassets */,
+				15916A3D2A37D3D600C4E94C /* Preview Content */,
+			);
+			path = "United Care Services";
+			sourceTree = "<group>";
+		};
+		15916A3D2A37D3D600C4E94C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				15916A3E2A37D3D600C4E94C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		15916A472A37D3D600C4E94C /* United Care ServicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				15916A482A37D3D600C4E94C /* United_Care_ServicesTests.swift */,
+			);
+			path = "United Care ServicesTests";
+			sourceTree = "<group>";
+		};
+		15916A512A37D3D600C4E94C /* United Care ServicesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15916A522A37D3D600C4E94C /* United_Care_ServicesUITests.swift */,
+				15916A542A37D3D600C4E94C /* United_Care_ServicesUITestsLaunchTests.swift */,
+			);
+			path = "United Care ServicesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15916A332A37D3D500C4E94C /* United Care Services */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15916A582A37D3D600C4E94C /* Build configuration list for PBXNativeTarget "United Care Services" */;
+			buildPhases = (
+				15916A302A37D3D500C4E94C /* Sources */,
+				15916A312A37D3D500C4E94C /* Frameworks */,
+				15916A322A37D3D500C4E94C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "United Care Services";
+			productName = "United Care Services";
+			productReference = 15916A342A37D3D500C4E94C /* United Care Services.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15916A432A37D3D600C4E94C /* United Care ServicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15916A5B2A37D3D600C4E94C /* Build configuration list for PBXNativeTarget "United Care ServicesTests" */;
+			buildPhases = (
+				15916A402A37D3D600C4E94C /* Sources */,
+				15916A412A37D3D600C4E94C /* Frameworks */,
+				15916A422A37D3D600C4E94C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15916A462A37D3D600C4E94C /* PBXTargetDependency */,
+			);
+			name = "United Care ServicesTests";
+			productName = "United Care ServicesTests";
+			productReference = 15916A442A37D3D600C4E94C /* United Care ServicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15916A4D2A37D3D600C4E94C /* United Care ServicesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15916A5E2A37D3D600C4E94C /* Build configuration list for PBXNativeTarget "United Care ServicesUITests" */;
+			buildPhases = (
+				15916A4A2A37D3D600C4E94C /* Sources */,
+				15916A4B2A37D3D600C4E94C /* Frameworks */,
+				15916A4C2A37D3D600C4E94C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15916A502A37D3D600C4E94C /* PBXTargetDependency */,
+			);
+			name = "United Care ServicesUITests";
+			productName = "United Care ServicesUITests";
+			productReference = 15916A4E2A37D3D600C4E94C /* United Care ServicesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15916A2C2A37D3D500C4E94C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					15916A332A37D3D500C4E94C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					15916A432A37D3D600C4E94C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 15916A332A37D3D500C4E94C;
+					};
+					15916A4D2A37D3D600C4E94C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 15916A332A37D3D500C4E94C;
+					};
+				};
+			};
+			buildConfigurationList = 15916A2F2A37D3D500C4E94C /* Build configuration list for PBXProject "United Care Services" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15916A2B2A37D3D400C4E94C;
+			productRefGroup = 15916A352A37D3D500C4E94C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15916A332A37D3D500C4E94C /* United Care Services */,
+				15916A432A37D3D600C4E94C /* United Care ServicesTests */,
+				15916A4D2A37D3D600C4E94C /* United Care ServicesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15916A322A37D3D500C4E94C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15916A3F2A37D3D600C4E94C /* Preview Assets.xcassets in Resources */,
+				15916A3C2A37D3D600C4E94C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15916A422A37D3D600C4E94C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15916A4C2A37D3D600C4E94C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15916A302A37D3D500C4E94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15916A3A2A37D3D500C4E94C /* ContentView.swift in Sources */,
+				15916A382A37D3D500C4E94C /* United_Care_ServicesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15916A402A37D3D600C4E94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15916A492A37D3D600C4E94C /* United_Care_ServicesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15916A4A2A37D3D600C4E94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15916A552A37D3D600C4E94C /* United_Care_ServicesUITestsLaunchTests.swift in Sources */,
+				15916A532A37D3D600C4E94C /* United_Care_ServicesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15916A462A37D3D600C4E94C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15916A332A37D3D500C4E94C /* United Care Services */;
+			targetProxy = 15916A452A37D3D600C4E94C /* PBXContainerItemProxy */;
+		};
+		15916A502A37D3D600C4E94C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15916A332A37D3D500C4E94C /* United Care Services */;
+			targetProxy = 15916A4F2A37D3D600C4E94C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15916A562A37D3D600C4E94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15916A572A37D3D600C4E94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15916A592A37D3D600C4E94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"United Care Services/Preview Content\"";
+				DEVELOPMENT_TEAM = YKVX28ZG94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ucs.United-Care-Services";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15916A5A2A37D3D600C4E94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"United Care Services/Preview Content\"";
+				DEVELOPMENT_TEAM = YKVX28ZG94;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ucs.United-Care-Services";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15916A5C2A37D3D600C4E94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YKVX28ZG94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ucs.United-Care-ServicesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/United Care Services.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/United Care Services";
+			};
+			name = Debug;
+		};
+		15916A5D2A37D3D600C4E94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YKVX28ZG94;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ucs.United-Care-ServicesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/United Care Services.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/United Care Services";
+			};
+			name = Release;
+		};
+		15916A5F2A37D3D600C4E94C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YKVX28ZG94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ucs.United-Care-ServicesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "United Care Services";
+			};
+			name = Debug;
+		};
+		15916A602A37D3D600C4E94C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YKVX28ZG94;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ucs.United-Care-ServicesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "United Care Services";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15916A2F2A37D3D500C4E94C /* Build configuration list for PBXProject "United Care Services" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15916A562A37D3D600C4E94C /* Debug */,
+				15916A572A37D3D600C4E94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15916A582A37D3D600C4E94C /* Build configuration list for PBXNativeTarget "United Care Services" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15916A592A37D3D600C4E94C /* Debug */,
+				15916A5A2A37D3D600C4E94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15916A5B2A37D3D600C4E94C /* Build configuration list for PBXNativeTarget "United Care ServicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15916A5C2A37D3D600C4E94C /* Debug */,
+				15916A5D2A37D3D600C4E94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15916A5E2A37D3D600C4E94C /* Build configuration list for PBXNativeTarget "United Care ServicesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15916A5F2A37D3D600C4E94C /* Debug */,
+				15916A602A37D3D600C4E94C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15916A2C2A37D3D500C4E94C /* Project object */;
+}
