@@ -11,7 +11,7 @@ import SwiftUI
 struct United_Care_ServicesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
