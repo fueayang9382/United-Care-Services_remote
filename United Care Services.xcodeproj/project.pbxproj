@@ -14,6 +14,7 @@
 		15916A492A37D3D600C4E94C /* United_Care_ServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15916A482A37D3D600C4E94C /* United_Care_ServicesTests.swift */; };
 		15916A532A37D3D600C4E94C /* United_Care_ServicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15916A522A37D3D600C4E94C /* United_Care_ServicesUITests.swift */; };
 		15916A552A37D3D600C4E94C /* United_Care_ServicesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15916A542A37D3D600C4E94C /* United_Care_ServicesUITestsLaunchTests.swift */; };
+		15916A622A37D68500C4E94C /* second_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15916A612A37D68500C4E94C /* second_view.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		15916A4E2A37D3D600C4E94C /* United Care ServicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "United Care ServicesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15916A522A37D3D600C4E94C /* United_Care_ServicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = United_Care_ServicesUITests.swift; sourceTree = "<group>"; };
 		15916A542A37D3D600C4E94C /* United_Care_ServicesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = United_Care_ServicesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15916A612A37D68500C4E94C /* second_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = second_view.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				15916A372A37D3D500C4E94C /* United_Care_ServicesApp.swift */,
 				15916A392A37D3D500C4E94C /* ContentView.swift */,
+				15916A612A37D68500C4E94C /* second_view.swift */,
 				15916A3B2A37D3D600C4E94C /* Assets.xcassets */,
 				15916A3D2A37D3D600C4E94C /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15916A3A2A37D3D500C4E94C /* ContentView.swift in Sources */,
+				15916A622A37D68500C4E94C /* second_view.swift in Sources */,
 				15916A382A37D3D500C4E94C /* United_Care_ServicesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
