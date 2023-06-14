@@ -15,6 +15,7 @@
 		15916A532A37D3D600C4E94C /* United_Care_ServicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15916A522A37D3D600C4E94C /* United_Care_ServicesUITests.swift */; };
 		15916A552A37D3D600C4E94C /* United_Care_ServicesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15916A542A37D3D600C4E94C /* United_Care_ServicesUITestsLaunchTests.swift */; };
 		15916A622A37D68500C4E94C /* second_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15916A612A37D68500C4E94C /* second_view.swift */; };
+		15916A642A393BB600C4E94C /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15916A632A393BB600C4E94C /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		15916A522A37D3D600C4E94C /* United_Care_ServicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = United_Care_ServicesUITests.swift; sourceTree = "<group>"; };
 		15916A542A37D3D600C4E94C /* United_Care_ServicesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = United_Care_ServicesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		15916A612A37D68500C4E94C /* second_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = second_view.swift; sourceTree = "<group>"; };
+		15916A632A393BB600C4E94C /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		15916A2B2A37D3D400C4E94C = {
 			isa = PBXGroup;
 			children = (
+				15916A632A393BB600C4E94C /* Test.swift */,
 				15916A362A37D3D500C4E94C /* United Care Services */,
 				15916A472A37D3D600C4E94C /* United Care ServicesTests */,
 				15916A512A37D3D600C4E94C /* United Care ServicesUITests */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15916A3A2A37D3D500C4E94C /* ContentView.swift in Sources */,
+				15916A642A393BB600C4E94C /* Test.swift in Sources */,
 				15916A622A37D68500C4E94C /* second_view.swift in Sources */,
 				15916A382A37D3D500C4E94C /* United_Care_ServicesApp.swift in Sources */,
 			);
